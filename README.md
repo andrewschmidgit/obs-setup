@@ -1,5 +1,5 @@
 # Introduction
-This document tells you how to install OBS Studio, how to configure it initially, how to add [Scenes](#setup-scenes) and [Sources](#setup-input-devices-per-scene). I highly recommend reading this and then following the example over at [example](example.md)
+This document tells you how to install OBS Studio, how to configure it initially, how to add [Scenes](#setup-scenes) and [Sources](#setup-input-devices-per-scene). I highly recommend reading this and then following the example [here](example.md)
 
 
 # Install
@@ -40,32 +40,14 @@ Just click `next` through all of the dialogs, and once it finishes, open `OBS St
 
 Again this is an optimization option. If your internet connection can't handle your stream you should consider lowering this. This allows you to choose whether you prefer a nicer looking video or a smoother looking video (better details vs. less stuttering). 
 
-4. On the next window, select the service (I believe you wanted `YouTube`) and click `Get Stream Key`
-
-![](get-stream-key.png)
-
-This will open up a browser window to YouTube's streaming dashboard (which looks like this)
-
-![](youtube-dashboard.png)
-
-(if it doesn't, it will take you to a login screen first)
-
-Scroll down to the `Encoder Setup` card, click `Reveal` next to the `Stream name / key`
-
-![](stream-key.png)
-
-Copy that key and paste it into `OBS` where it says `Stream Key`
-
-![](paste-stream-key.png)
-
-Leave the rest of the settings the same, and click `next`
+4. On the next window, select the service (I believe you wanted `YouTube`), and ignore the rest for now. Go ahead and click next
 
 5. This last window just shows you the hardware information `OBS` picked up, go ahead and click `Apply Settings`
 
 ![](hardware-info.png)
 
 # Setup Scenes
-If you need to transition between something on the computer (like title cards or lyrics) or different cameras, you will need to setup a `Scene` for each of these configurations. A `Scene` is basically a folder for input devices, so as an example:
+If you need to transition between something on the computer (like title cards or lyrics) or different cameras, you will need to setup a `Scene` for each of these configurations. A `Scene` is basically a folder for input devices.
 
 On the bottom left of your screen, in the `Scenes` panel, you can click the plus icon to add a scene. Name each scene something helpful (like *desktop*, *title cards*, *left camera*, *title card overlay camera*, etc.).
 
@@ -126,22 +108,4 @@ On the next screen, it will present you with a preview (where the black box is i
 ## Add a window from your computer (like PowerPoint)
 
 
-# Stream / test
-To start streaming, click the `Start Streaming` button in the `Controls` panel in the bottom right corner.
-
-![](stream.png)
-
-To view or share your stream: 
-
-1. Go to [YouTube](www.youtube.com)
-2. Click your account picture in the top right corner (or login if you are not logged in) and click `Your Channel`
-
-![](your-channel.png)
-
-
-
-
-<!-- ## Add a microphone that's not part of the camera
-To add a microphone, click the plus icon, and select `Audio Input Capture`
-
-![](audio-input-capture.png) -->
+Now that everything is setup
