@@ -1,3 +1,7 @@
+# Introduction
+This document tells you how to install OBS Studio, how to configure it initially, how to add [Scenes](#setup-scenes) and [Sources](#setup-input-devices-per-scene). I highly recommend reading this and then following the example over at [example](example.md)
+
+
 # Install
 > Install this on whatever computer you will be streaming from and is connected to the camera / sound.
 
